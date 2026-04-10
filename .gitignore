@@ -1,12 +1,31 @@
 # Folder
-html/node_modules
-html/src/assets/css/app-input.css
-html/package-lock.json
-html/package.json
+**/node_modules
+**/app-input.css
+**/package-lock.json
+**/package.json
 
-.json*
-
+.json
 .DS_Store
+*.env
+*.local
+*.log
+
+
+
+# dependencies
+node_modules/
+
+# env
 .env*
-.local*
-.log*
+*.local
+
+# logs
+*.log
+
+# macOS
+.DS_Store
+
+# specific file
+app-input.css
+package-lock.json
+package.json
